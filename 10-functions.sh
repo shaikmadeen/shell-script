@@ -1,5 +1,7 @@
 #!/bin/bash
 # our program goal is to install mysql
+DATE=$(date +%F)
+SCRIPT_NAME=$0
 
 USERID=$(id -u)
 # this function should validate the previous command and inform user it is success or failure
