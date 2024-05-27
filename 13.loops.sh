@@ -23,7 +23,7 @@ VALIDATE(){
        exit 1
     else
        echo -e "Installing $2 ... $G SUCCESS $N"
-}
+    }
 
 # all args are in $@
 for i in $@
